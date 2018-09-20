@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="theApp">
+<head>
+    <!-- Site details -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Career Showcase at Lewis-Clark State College</title>
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
+    <link rel="stylesheet" href="css/foundation/foundation.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="js/app.js"></script>
+
+</head>
+<body>
+
+    <!--Scroll to top button-->
+    <a class="scroll-top" id="scroll-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
+
+    <!--Logo and Event Details-->
+    <div class="details-bar" id="home">
+        <div class="row">     
+            <!-- <div class="small-12 medium-3 columns">
+                <img src="images/bts-logo.png" alt="Business Technology and Service">
+            </div> -->
+            <div class="small-12 medium-4 columns hide-for-small">
+                <div class="row">
+                    <div class="small-3 columns">
+                        <i class="fa fa-fw fa-clock-o"></i>
+                    </div>
+                    <div class="small-9 columns">
+                        <p>October 13, 2017<br>
+                        9:30pm - 12:45pm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="small-12 medium-4 columns hide-for-small">
+                <div class="row">
+                    <div class="small-3 columns">
+                        <i class="fa fa-fw fa-map-marker"></i>
+                    </div>
+                    <div class="small-9 columns">
+                        <p>Lewis-Clark State College<br>
+                        Williams Conference Center</p>
+                    </div>
+                </div>
+            </div>
+            <div class="small-12 medium-4 columns hide-for-small">
+                <div class="row">
+                    <div class="small-3 columns">
+                        <i class="fa fa-fw fa-envelope-o"></i>
+                    </div>
+                    <div class="small-9 columns">
+                        <p>(208) 792-2555<br>
+                        <a href="mailto:kbabino@lcsc.edu">Email Us</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+    <!--Page navigation-->
+    <nav style="background-color:#E6E6E6;">
+        <div class="row">
+            <div class="top-bar">
+                    <ul class="menu" id="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#showcase">Career Showcase</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#tuition">Tuition</a></li>
+                        <li><a href="#cte">Career &amp; Technical Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!--/Page navigation-->
+
+    <!--jumbotron-->
+    <div class="jumbotron">
+        <div class="row">
+            <div class="small-12 columns">
+                <p class="tagline">
+                    <img src="images/jumbotron/explore.png" alt="">
+                    <br>
+                    Need a new series?
+                    <br>
+                    Bing 22 degrees in one day!
+                </p>
+            </div>
+            <div class="small-12 columns">
+                <h1>
+                    Hands-On Career Showcase
+                </h1>
+                <div class="row">
+                    <div class="small-12 columns">
+                        <p class="white center date">
+                            October 13, 2017 &middot; Williams Conference Center &middot; Lewis-Clark State College
+                        </p>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+
+        <!-- <div class="jumbotron-content">
+            <h1>Get where you want to go, <em>faster</em>.</h1>
+            <div class="row align-center">
+                <div class="small-12 medium-6 columns">
+                    <p class="text-left showcase-details">
+                        <i class="fa fa-fw fa-calendar"></i> Wednesday March 22, 2017 6:30pm
+                    </p>
+                </div>
+                <div class="small-12 medium-6 columns">
+                    <p class="text-right showcase-details">
+                        <i class="fa fa-fw fa-map-marker"></i> Sam Glenn Complex, LCSC
+                    </p>
+                </div>
+            </div>
+            <h2>
+                Career Showcase 2017
+            </h2>
+            <p id="showcase-tagline">Earn As You Learn</p>
+            <div class="social-icons" ng-controller="socialCtrl">
+                <a href="{{ facebook }}" class="icon-facebook" target="_blank">
+                    <span class="hide">Facebook</a>
+                </a>
+                <a href="{{ twitter }}" class="icon-twitter" target="_blank">
+                    <span class="hide">Twitter</span>
+                </a>
+                <a href="{{ instagram }}" class="icon-instagram" target="_blank">
+                    <span class="hide">Instagram</span>
+                </a>
+                <a href="mailto:{{ email }}" class="icon-email">
+                    <span class="hide">Email</span>
+                </a>
+            </div>
+        </div> -->
+    </div>
+
+
+
+    <!--Career showcase will begin in...-->
+    <div class="section" id="showcase">
+        <div class="row">
+            <div class="small-12 columns text-center">
+                <h2>About our Career Showcase</h2>
+            </div>
+
+            <div class="small-12 columns text-center">
+                <p class="large-font">
+                    LCSC's division of Career and Technical Education is hosting a Hands-On Career Showcase. Come meet our students, faculty, and industry partners and see what you can do at LCSC. Come join us for door prizes, food, and details on what you can do to start your career! You'll explore our programs, degrees you can earn, and what you can do with that degree. We will also be giving away two <em>$500 scholarships</em>
+                </p>
+                <!-- <div>
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/wGs9ftZKzyQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <!--Programs-->
+    <section class="section noborder gray-bg programs" id="programs">
+        <div class="row align-center">
+            <div class="small-12 columns">
+                <h3>What programs do we offer?</h3>
+            </div>
+        </div>
+        <div class="row align-center" id="program-list"></div>
+        <div class="row">
+            <p class="text-center">
+                <span class="label">Minor (24+ credits)</span>
+                <span class="label">ITC: Intermediate Technical Certificate (30+ credits)</span>
+                <span class="label">ATC: Advanced Technical Certificate (50+ credits)</span>
+                <span class="label">AAS: Associate of Applied Science (60+ credits)</span>
+                <span class="label">BAS: Bachelor of Applied Science (120 credits)</span>
+            </p>
+        </div>
+    </section>
+
+    <!--Details on program-->
+    <div class="medium reveal program-details" id="modal" data-reveal></div>
+
+
+
+
+
+
+    <!--Cost of tuition comparison-->
+    <div class="section noborder black-background" id="tuition">
+
+        <div class="row" ng-controller="priceCtrl">
+            <div class="small-12 columns text-center">
+                <h2 class="white">How much is tuition?</h2>
+                <p>
+                    Lewis-Clark State College offers the lowest tuition in the state of Idaho. Compare the cost of a Technical Certificate, Associate's Degree, and Bachelor's Degree with the cost of tuition at other schools to see how much you can save on your education while earning real-world experience and gaining the skills needed for your life.
+                </p>
+            </div>
+
+            <div class="small-12 medium-3 columns" >
+                    
+                <ul class="tuition-table">
+                    <li class="title">{{ itc.name }}</li>
+                    <li>30 credits</li>
+                    <li>Degree finished in {{ itc.semesters }} semesters</li>
+                    <li>Tuition: <b>{{ itc.price | currency }}/semester</b></li>
+                    <li>Total degree cost:</li>
+                    <li class="final-price">{{ itc.total() | currency }}</li>
+                </ul>
+            </div>
+
+            <div class="small-12 medium-3 columns" >
+
+                <ul class="tuition-table">
+                    <li class="title">{{ aas.name }}</li>
+                    <li>60-70 credits</li>
+                    <li>Degree finished in {{ aas.semesters }} semesters</li>
+                    <li>Tuition: <b>{{ aas.price | currency }}/semester</b></li>
+                    <li>Total degree cost:</li>
+                    <li class="final-price">{{ aas.total() | currency }}</li>
+                </ul>
+            </div>
+
+            <div class="small-12 medium-3 columns">
+                <ul class="tuition-table">
+                    <li class="title">{{ bas.name }}</li>
+                    <li>120 credits</li>
+                    <li>Degree finished in {{ bas.semesters }} semesters</li>
+                    <li>Tuition: <b>{{ bas.price | currency }}/semester</b></li>
+                    <li>Total degree cost:</li>
+                    <li class="final-price">{{ bas.total() | currency }}</li>
+                </ul>
+            </div>
+
+            <div class="small-12 medium-3 columns">
+                <ul class="tuition-table">
+                    <li class="title">Other Schools</li>
+                    <li>
+                        <select ng-model="selectedOther" 
+                                ng-options="other as other.name for other in others" 
+                                ng-change="loadOther()" 
+                                ng-init="selectedOther = others[0]"></select>
+
+                    </li>
+                    <li ng-show="selectedOther">Degree finished in 8 semesters</li>
+                    <li ng-show="selectedOther">Tuition: <b>{{ selectedOther.cost | currency }}/semester</b></li>
+                    <li ng-show="selectedOther">Total degree cost:</li>
+                    <li class="final-price" ng-show="selectedOther">{{ selectedOther.cost*8 | currency }}</li>
+                    <!--<li class="title-other">Other Schools*</li>
+                    <li ng-repeat="o in other"><b>{{ o.name }}</b>: {{ o.cost|currency}}/year</li>-->
+                </ul>
+            </div>
+
+            <div class="small-12 columns text-center small-font">
+                <p>For all schools listed, the above costs per year include the cost of tuition only. This does not include room and board, estimated expenses (such as clothing or food), travel costs, or other fees charged by the school.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--CTE-->
+    <div class="section" id="cte">
+        <div class="row cte">
+            <div class="small-12 columns text-center">
+                <h2>Career and Technical Education</h2>
+                <h3>Learn by doing</h3>
+                <p>
+                    Learn the skills you need to start your career! The division of Career &amp; Technical Education at Lewis-Clark State College offers certificates, 2-year, and 4-year degrees to prepare you for high-skill, in-demand careers. We connect students to real careers by making education meaningful through applied learning. Every course is taught by instructors with years of experience in their industry. When you enroll in a BTS program, you will learn by doing and gain the real-world skills that your future employers need.
+                </p>
+            </div>
+
+            <!--3 main points-->
+            <div class="small-12 medium-4 columns text-center">
+                <div class="card">
+                    <p>
+                        <i class="fa fa-briefcase"></i>
+                    </p>
+                    <h3>Gain Real Experience</h3>
+                    <p>
+                        To graduate, students gain experience through internships, directed studies, and work-based learning opportunities.
+                    </p>
+                </div>
+            </div>
+
+            <div class="small-12 medium-4 columns text-center">
+                <div class="card">
+                    <p>
+                        <i class="fa fa-usd"></i>
+                    </p>
+                    <h3>Earn as you learn</h3>
+                    <p>
+                        Many students in internships or work-based learning programs are hired while still enrolled in a program!
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="small-12 medium-4 columns text-center">
+                <div class="card">
+                    <p>
+                        <i class="fa fa-users"></i>
+                    </p>
+                    <h3>Successful Job Placement</h3>
+                    <p>
+                        Over 95% of graduates who earn their certificate or degree find employment within 6 months after graduation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Contact Us-->
+    <div class="section noborder gray-bg" id="contact">
+        <div class="row">
+            <div class="small-12 columns text-center">
+                <h2>Contact Us</h2>
+            </div>
+
+            <div class="small-12 medium-6 columns">
+                <form method="POST" action="http://formspree.io/clblamires@lcsc.edu">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="text" name="phone" id="phone" required>
+                    </div>
+                    <div>
+                        <label for="msg">Message</label>
+                        <textarea name="msg" id="msg"></textarea
+                    ></div>
+                    <button type="submit" class="button expanded" id="submit-button">
+                        Submit
+                    </button>
+                </form>
+
+                <div id="form_message" class="hide callout"></div>
+            </div>
+            <div class="small-12 medium-6 columns">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+        
+    
+    <!-- Instagram - InstaWidget-->
+    <div class="section">
+        <div class="row">
+            <div class="small-12 columns">
+                <!-- InstaWidget -->
+                    <script src="https://instawidget.net/js/instawidget.js?u=8c3fe048766f014a6e1ff41a01b3b67b7bbbb4f18ae89b109a7e0b5bb250c967&width=900px"></script>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="blue-background">
+        <div class="row">
+            <div class="small-12 medium-6 columns">
+                <p>
+                    <img src="images/bts-logo-small.png" alt="BTS Logo">
+                </p>
+            </div>
+            <div class="small-12 medium-6 columns text-right" ng-controller="socialCtrl">
+                <p>
+                    <a href="{{ facebook }}" target="_blank">
+                        <i class="fa fa-facebook-official fa-2x"></i> 
+                    </a>
+                    <a href="{{ twitter }}" target="_blank">
+                        <i class="fa fa-twitter-square fa-2x"></i> 
+                    </a>
+                    <a href="{{ instagram }}" target="_blank">
+                        <i class="fa fa-instagram fa-2x"></i> 
+                    </a>
+                    <a href="mailto:{{ email }}">
+                        <i class="fa fa-envelope fa-2x"></i> 
+                    </a>
+                </p>
+            </div>
+            <div class="small-12 columns text-center">
+                <p>
+                    <small>Entire site &copy; 2017 Career &amp; Technical Education | Lewis-Clark State College</small><br>
+                    <small>Web Design by <a href="https://clblamires.github.io/" target="_blank">Casey Blamires</a></small>
+                </p>
+                <p class="disclaimer">
+                    Lewis-Clark State College does not discriminate on the basis of race, religion, age, sex, national originl, disability, gender identity, protected veteran status, or sexual orientation. This policy applies to all programs, services, and facilities, including applications, admissions, and employment. The Director of Human Resource Services has been designated to handle inquiries regarding non-discrimination policies and can be reached at 208-792-2269 or at the Administration Building, Room 102, on LCSC's campus, 500 8th Avenue, Lewiston, Idaho, 83501. TTY 1-800-377-3529
+                </p>
+                
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <!-- Additional JavaScript resources -->
+    <script src="js/jquery/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery/jquery.countdown.min.js"></script>
+    <script src="js/foundation/foundation.min.js"></script>
+    <script src="js/script.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5BQTWAZOu6nYlZTV0fMI84ePDtBDqPyI&callback=createMap">
+    </script>
+</body>
+</html>

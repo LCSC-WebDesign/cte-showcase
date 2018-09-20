@@ -1,0 +1,343 @@
+{
+    "program": [
+        {
+            "shortname" : "adminasst" ,
+            "name" : "Administrative Assistant" ,
+            "jobs" : [
+                "Administrative Assistant" ,
+                "Executive Assistant" ,
+                "Clerical Supervisor" ,
+                "Office Manager"
+            ],
+            "degrees" : [
+                "ITC Office Technology" ,
+                "ATC Administrative Assistant" ,
+                "AAS Administrative Assistant" ,
+                "BAS Administrative Assistant"
+            ],
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/administrative-assistant/" ,
+            "desc" : "Students completing the Administrative Assistant program will possess skills to enable them to function in the rapidly developing and ever-changing field of office technology. "
+        },
+        {
+            "shortname" : "admedasst" ,
+            "name" : "Administrative Medical Assistant" ,
+            "jobs" : [
+                "Patient Access Representative" ,
+                "Certified Medical Coder" ,
+                "Medical Receptionist" ,
+                "Medical Transcriptionist" ,
+                "Medical Billing Specialist"
+            ],
+            "degrees" : [
+                "ITC Medical Biller/Coder" ,
+                "ITC Medical Receptionist" ,
+                "ITC Medical Transcriptionist" ,
+                "ATC Administrative Medical Assistant" ,
+                "AAS Administrative Medical Assistant" ,
+                "BAS Administartive Medical Assistant"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/administrative-medical-assistant/" ,
+            "desc": "The Administrative Medical Assistant program prepares students to work in a medical office, clinic, hospital, public health agency, or insurance setting."
+        },
+        {
+            "shortname" : "appacc" ,
+            "name" : "Applied Accounting" ,
+            "jobs" : [
+                "Acountant or Auditor" ,
+                "Financial Examiner" ,
+                "Fraud Support Specialist" ,
+                "Forensic Accountant" ,
+                "Payroll Specialist"
+            ],
+            "degrees" : [
+                "ATC Accounting Assistant" ,
+                "AAS Accounting Assistant" ,
+                "BAS Accounting Assistant"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/applied-accounting/" ,
+            "desc": "The Applied Accounting program offers students the training and background needed to perform payroll, accounts receivable, accounts payable, and other accountings functions in both large and small offices as specialists/assistants."
+        },
+        {
+            "shortname" : "busman" ,
+            "name" : "Business Management & Marketing" ,
+            "jobs" : [
+                "General Manager" ,
+                "Loan Officer" ,
+                "Sales Manager" ,
+                "Product Manager"
+            ],
+            "degrees" : [
+                "ITC Retailing" ,
+                "ITC Supervision" ,
+                "ATC Business Management" ,
+                "AAS Business Management" ,
+                "BAS Business Management"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/business-management/",
+            "desc":"The Business Management & Marketing program is designed for students who wish to work at the supervisory or management level in a retail or service business, or small business ownership." 
+        },
+        {
+            "shortname" : "ecd" ,
+            "name" : "Early Childhood Development" ,
+            "jobs" : [
+                "Lead Teacher" ,
+                "Teaching Assistant-Child Care Worker" ,
+                "Educational Support Personnel" ,
+                "Educational Assistant"
+            ],
+            "degrees" : [
+                "ITC Early Childhood Development" ,
+                "ATC Early Childhood Development" ,
+                "AAS Early Childhood Development" ,
+                "BAS Early Childhood Development" 
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/early-childhood-development/" ,
+            "desc": "The Early Childhood Development program prepares students to perform in general areas of preschool and child care operations including recreation and teaching basic concepts."
+        },
+        {
+            "shortname" : "graphic" ,
+            "name" : "Graphic Communications" ,
+            "jobs" : [
+                "Graphic Designer" ,
+                "Pre-Press Technician" ,
+                "Print Supervisor" ,
+                "Desktop Publisher"
+            ],
+            "degrees" : [
+                "AAS Graphic Communications" ,
+                "BAS Graphic Communications"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/graphic-communications/" ,
+            "desc":"This will prepare you to work as an entry-level designer in advertising agencies, design studios, packaging companies, and more. Or you could pursue a carreer as a freelance designer."
+        },
+        {
+            "shortname" : "hosp" ,
+            "name" : "Hospitality Management" ,
+            "jobs" : [
+                "Hotel Front Office Manager" ,
+                "Bar and Beverage Manager" ,
+                "Events Coordinator" ,
+                "Convention Manager"
+            ],
+            "degrees" : [
+                "ITC Food and Beverage" ,
+                "ITC Rooms Division Management" ,
+                "ATC Hospitality Management" ,
+                "AAS Hospitality Management" ,
+                "BAS Hospitality Management"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/hospitality-management/",
+            "desc": "Students enrolled in the Hospitality Management program will receive certified training in food and beverage management and room division management." 
+        },
+        {
+            "shortname" : "legal" ,
+            "name" : "Legal Support Services" ,
+            "jobs" : [
+                "Paralegal" ,
+                "Court Clerk" ,
+                "Claims Adjuster"
+            ],
+            "degrees" : [
+                "ITC Legal Assistant" ,
+                "ATC Legal Administrative Assistant" ,
+                "AAS. Legal Administrative Assistant" ,
+                "BAS Legal Administrative Assistant" ,
+                "ITC Paralegal" ,
+                "AAS Paralegal" ,
+                "BAS Paralegal" ,
+                "Pre-Law Minor"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/paralegal/",
+            "desc":"Legal administrative assistants are educated for entry-level positions in the legal profession.  They perform clerical duties related to a lawyer’s practice. Paralegals are experienced support staff that work under direct supervision of an attorney, drafting correspondence, memoranda, and legal documents." 
+        },
+        {
+            "shortname" : "medasst" ,
+            "name" : "Medical Assistant" ,
+            "jobs" : [
+                "Medical Assistant"
+            ],
+            "degrees" : [
+                "AAS Medical Assistant" ,
+                "BAS Medical Assistant"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/medical-assistant/" ,
+            "desc":"Prepares students to care for patients and maintain office records. Students receive training in diagnostic and procedural coding, transcription, and clinical experience."
+        },
+        {
+            "shortname" : "webdev" ,
+            "name" : "Web Design & Development" ,
+            "jobs" : [
+                "Front End Web Developer" ,
+                "Back End Web Developer" ,
+                "UI/UX Designer" ,
+                "Social Media Manager" ,
+                "Content Strategist"
+            ],
+            "degrees" : [
+                "AAS Web Design & Development" ,
+                "BAS Web Design & Development"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/web-development/" ,
+            "desc":"Front-End Web Designers and Back-End Developers prepare and create sites, application, and software with an emphasis on standard skills to design, develop, and maintain online technology"
+        },
+        {
+            "shortname" : "automechanics" ,
+            "name" : "Auto Mechanics Technology" ,
+            "jobs" : [
+                "Auto Mechanic"
+            ],
+            "degrees" : [
+                "ITC Auto Mechanics Technology",
+                "ATC Auto Mechanics Technology",
+                "AAS Auto Mechanics Technology",
+                "BAS Auto Mechanics Technology"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/ti/automechanics/" ,
+            "desc":"Students in the Auto Mechanics Technology program develop skills for servicing and repairing all systems of the automobile. Students receive instruction in engines, chassis, standard and automatic transmissions, electrical, safety, brakes, and advanced computerized fuel systems while working on customer projects and training aids. Shop experience is combined with courses of related theory. "
+        },
+        {
+            "shortname" : "cnc" ,
+            "name" : "CNC Machining Technology" ,
+            "jobs" : [
+                "Quality Control",
+                "Automated manufacturing",
+                "Project developer"
+            ],
+            "degrees" : [
+                "ITC CNC Machining Technology" ,
+                "ATC CNC Machining Technology" ,
+                "AAS CNC Machining Technology" ,
+                "BAS CNC Machining Technology"
+            ],
+            "link" : "http://www.lcsc.edu/ti/cncmachining/",
+            "desc":"The CNC MachiningTechnology program provides training that prepares students to set and operate manufacturing equipment, handle inspection devices, analyze production problems, and the potential to move into supervision of manufacturing. The program provides a balance between practical training in manufacturing processes and technical education in manufacturing analysis, planning, and control with supporting emphasis in communications, mathematics, science and business."
+        },
+        {
+            "shortname" : "collision" ,
+            "name" : "Collision Repair Technology" ,
+            "jobs" : [
+                "Auto repair" ,
+                "Auto Painter" 
+            ],
+            "degrees" : [
+                "ITC Collision Repair Technology",
+                "ATC Collision Repair Technology",
+                "AAS Collision Repair Technology",
+                "BAS Collision Repair Technology" 
+            ],
+            "link" : "http://www.lcsc.edu/ti/collisionrepairtechnology/",
+            "desc":"The Collision Repair Technology program is designed to develop knowledge and skills necessary for employment in the collision repair industry. Students will learn the proper use of tools and equipment, automobile design, front wheel suspension, metal straightening techniques, paint refinishing and color matching, and final detailing and basic mechanical repairs that relate to collision work."
+        },
+        {
+            "shortname" : "diesel" ,
+            "name" : "Diesel Technology" ,
+            "jobs" : [
+                "Diesel Technician"
+            ],
+            "degrees" : [
+                "ITC Diesel Technology" ,
+                "ATC Diesel Technology" ,
+                "AAS Diesel Technology" ,
+                "BAS Diesel Technology"
+            ],
+            "link" : "http://www.lcsc.edu/ti/diesel/",
+            "desc":"Students in the Diesel Technology program are given a well-rounded education in the service and repair of trucks and heavy equipment related to areas including farming, logging, marine, locomotive, and construction equipment."
+        }
+        ,
+        {
+            "shortname" : "engineering" ,
+            "name" : "Engineering Technology" ,
+            "jobs" : [
+                "Engineering Technician" 
+            ],
+            "degrees" : [
+                "AAS Engineering Technology" ,
+                "BAS Engineering Technology"
+            ],
+            "link" : "http://www.lcsc.edu/ti/engineeringtech/",
+            "desc":"The Engineering Technology program provides students with skills as they relate to computer aided drafting, surveying (Civil, Geomatics), Solid Modeling and CNC Machining (Mechanical option), and other similar skill sets. In addition, the program offers a background in mathematics (through trigonometry), physics, communications, writing, and design concepts."
+        },
+        {
+            "shortname" : "hvac" ,
+            "name" : "Heating, Ventilation, Air Conditioning, and Refrigeration Technology" ,
+            "jobs" : [
+                ""
+            ],
+            "degrees" : [
+                "ATC HVAC-R Technology",
+                "AAS HVAC-R Technology" ,
+                "BAS HVAC-R Technology"
+            ],
+            "link" : "http://www.lcsc.edu/ti/hvac-r/",
+            "desc":"The HVAC-R program prepares students with training in the heating, air conditioning, ventilation, and refrigeration field. Instruction is provided in basic electricity, motors, refrigeration, duct systems, gas heating, and resistive heating."
+        },
+        {
+            "shortname" : "indelec" ,
+            "name" : "Industrial Electronics Technology" ,
+            "jobs" : [
+                ""
+            ],
+            "degrees" : [
+                "ITC Industrial Electronics Technology" ,
+                "ATC Industrial Electronics Technology" ,
+                "AAS Industrial Electronics Technology" ,
+                "BAS Industrial Electronics Technology"
+            ],
+            "link" : "http://www.lcsc.edu/ti/industrialelectronics/",
+            "desc":"The Industrial Electronics program prepares students for work in the development, installation, testing, maintenance and repair of electrical and electronic systems in industrial and commercial facilities. Graduates will be prepared to pursue jobs in other areas such as construction and electrical distribution as well."
+        },
+        {
+            "shortname" : "millwright" ,
+            "name" : "Industrial Maintenance and Millwright Technology" ,
+            "jobs" : [
+                ""
+            ],
+            "degrees" : [
+                "ATC Industrial Maintenance/Millwright" ,
+                "AAS Industrial Maintenance/Millwright" ,
+                "BAS Industrial Maintenance/Millwright"
+            ],
+            "link" : "http://www.lcsc.edu/ti/industrial-maintenance-millwright-technology/",
+            "desc":"The skillset needed for millwrights includes a high level of fabrication, a level of understanding electricity for troubleshooting electrical devices, hydraulic and pneumatic systems, and PLC’s operation and troubleshooting, as well as motor and component service and installation."
+        },
+        {
+            "shortname" : "it" ,
+            "name" : "Information Technology" ,
+            "jobs" : [
+                ""
+            ],
+            "degrees" : [
+                "AAS Information Technology" ,
+                "BAS Information Technology"
+            ],
+            "link" : "http://www.lcsc.edu/ti/informationtechnology/",
+            "desc":"The Information Technology program prepares students for a wide range of employment opportunities in the computer networking and information technology fields. Digital communications, local and wide area networks, systems, small computer maintenance, computer security, virtualizatoin and operating systems administration are all addressed as integral parts of the program."
+        },
+        {
+            "shortname" : "welding" ,
+            "name" : "Welding Technology" ,
+            "jobs" : [
+                ""
+            ],
+            "degrees" : [
+                "ITC Welding Technology" ,
+                "ATC Welding Technology" ,
+                "AAS Welding Technology" ,
+                "BAS Welding Technology"
+            ],
+            "link" : "http://www.lcsc.edu/ti/welding/",
+            "desc":"The Welding Technology program is designed to provide training in a sequential pattern for various welding processes. Those processes include: shielded metal arc welding, gas metal arc welding, flux cored arc welding, gas tungsten arc welding, oxy-acetylene cutting, brazing and welding, and the use of plasma arc cutting equipment."
+        }
+    
+    ]
+}

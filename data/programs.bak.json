@@ -1,0 +1,266 @@
+{
+    "program": [
+        {
+            "shortname" : "adminasst" ,
+            "name" : "Administrative Assistant" ,
+            "tags"  : [
+                "Be the Go-To" ,
+                "Call Me Priceless" ,
+                "Keep the Wheels Turning"
+            ],
+            "jobs" : [
+                "Administrative Assistant" ,
+                "Executive Assistant" ,
+                "Clerical Supervisor" ,
+                "Office Manager"
+            ],
+            "degrees" : [
+                "ITC Office Technology" ,
+                "ATC Administrative Assistant" ,
+                "AAS Administrative Assistant" ,
+                "BAS Administrative Assistant"
+            ],
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/administrative-assistant/" ,
+            "faIcon" : "fa-briefcase"
+        },
+        {
+            "shortname" : "admedasst" ,
+            "name" : "Administrative Medical Assistant" ,
+            "tags"  : [
+                "Be the First Smile They See" ,
+                "Make Claims" ,
+                "Not Everyone Knows 68,000 Codes"
+            ],
+            "jobs" : [
+                "Patient Access Representative" ,
+                "Certified Medical Coder" ,
+                "Medical Receptionist" ,
+                "Medical Transcriptionist" ,
+                "Medical Billing Specialist"
+            ],
+            "degrees" : [
+                "ITC Medical Biller/Coder" ,
+                "ITC Medical Receptionist" ,
+                "ITC Medical Transcriptionist" ,
+                "ATC Administrative Medical Assistant" ,
+                "AAS Administrative Medical Assistant" ,
+                "BAS Administartive Medical Assistant"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/administrative-medical-assistant/" ,
+            "faIcon" : "fa-paperclip"
+        },
+        {
+            "shortname" : "appacc" ,
+            "name" : "Applied Accounting" ,
+            "tags"  : [
+                "Turn Chaos into Order" ,
+                "Solve Financial Crimes" ,
+                "Call Me the Solution"
+            ],
+            "jobs" : [
+                "Acountant or Auditor" ,
+                "Financial Examiner" ,
+                "Fraud Support Specialist" ,
+                "Forensic Accountant" ,
+                "Payroll Specialist"
+            ],
+            "degrees" : [
+                "ATC Accounting Assistant" ,
+                "AAS Accounting Assistant" ,
+                "BAS Accounting Assistant"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/accounting-assistant/" ,
+            "faIcon" : "fa-usd"
+        },
+        {
+            "shortname" : "busman" ,
+            "name" : "Business Management & Marketing" ,
+            "tags"  : [ 
+                "Start Something",
+                "Change Someone's Perspective" ,
+                "Call Me Boss" 
+            ],
+            "jobs" : [
+                "General Manager" ,
+                "Loan Officer" ,
+                "Sales Manager" ,
+                "Product Manager"
+            ],
+            "degrees" : [
+                "ITC Retailing" ,
+                "ITC Supervision" ,
+                "ATC Business Management" ,
+                "AAS Business Management" ,
+                "BAS Business Management"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/business-management/" ,
+            "faIcon" : "fa-users"
+        },
+        {
+            "shortname" : "ecd" ,
+            "name" : "Early Childhood Development" ,
+            "tags"  : [
+                "Call Me a Future Maker" ,
+                "Change the Future of Our World" ,
+                "Be a Super Hero"
+            ],
+            "jobs" : [
+                "Lead Teacher" ,
+                "Teaching Assistant-Child Care Worker" ,
+                "Educational Support Personnel" ,
+                "Educational Assistant"
+            ],
+            "degrees" : [
+                "ITC Early Childhood Development" ,
+                "ATC Early Childhood Development" ,
+                "AAS Early Childhood Development" ,
+                "BAS Early Childhood Development" 
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/early-childhood-development/" ,
+            "faIcon" : "fa-child"
+        },
+        {
+            "shortname" : "firepara" ,
+            "name" : "Fire Service/Paramedic" ,
+            "tags"  : [
+                "Make Someone's Heart Beat" ,
+                "Always Wanted to Drive a Fire Truck" ,
+                "Call Me a Life Saver"
+            ],
+            "jobs" : [
+                "Firefighter" ,
+                "Paramedic" 
+            ],
+            "degrees" : [
+                "AAS Fire Service" ,
+                "AAS Paramedic" ,
+                "BAS Fire Service" ,
+                "BAS Paramedic"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/paramedic/" ,
+            "faIcon" : "fa-ambulance"
+        },
+        {
+            "shortname" : "graphic" ,
+            "name" : "Graphic Communications" ,
+            "tags"  : [
+                "Yes, We Kern",
+                "Be Published" ,
+                "Communicate with Pictures" 
+            ],
+            "jobs" : [
+                "Graphic Designer" ,
+                "Pre-Press Technician" ,
+                "Print Supervisor" ,
+                "Desktop Publisher"
+            ],
+            "degrees" : [
+                "AAS Graphic Communications" ,
+                "BAS Graphic Communications"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/graphic-communications/" ,
+            "faIcon" : "fa-file-image-o"
+        },
+        {
+            "shortname" : "hosp" ,
+            "name" : "Hospitality Management" ,
+            "tags"  : [
+                "Plan the Event of the Century" ,
+                "Be a Food Artist" ,
+                "Play with Knives and Fire"
+            ],
+            "jobs" : [
+                "Hotel Front Office Manager" ,
+                "Bar and Beverage Manager" ,
+                "Events Coordinator" ,
+                "Convention Manager"
+            ],
+            "degrees" : [
+                "ITC Food and Beverage" ,
+                "ITC Rooms Division Management" ,
+                "ATC Hospitality Management" ,
+                "AAS Hospitality Management" ,
+                "BAS Hospitality Management"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/hospitality-management/" ,
+            "faIcon" : "fa-bed"
+        },
+        {
+            "shortname" : "legal" ,
+            "name" : "Legal Support Services" ,
+            "tags"  : [
+                "Get all the Deets" ,
+                "Have the Best Comeback Ever" ,
+                "Find a New Perspective"
+            ],
+            "jobs" : [
+                "Paralegal" ,
+                "Court Clerk" ,
+                "Claims Adjuster"
+            ],
+            "degrees" : [
+                "ITC Legal Assistant" ,
+                "ATC Legal Administrative Assistant" ,
+                "AAS. Legal Administrative Assistant" ,
+                "BAS Legal Administrative Assistant" ,
+                "ITC Paralegal" ,
+                "AAS Paralegal" ,
+                "BAS Paralegal" ,
+                "Pre-Law Minor"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/paralegal/" ,
+            "faIcon" : "fa-gavel"
+        },
+        {
+            "shortname" : "medasst" ,
+            "name" : "Medical Assistant" ,
+            "tags"  : [
+                "Get Vital Info" ,
+                "Be the Doctor's Right Hand" ,
+                "I Vant to Suck Your Blood"
+            ],
+            "jobs" : [
+                "Medical Assistant"
+            ],
+            "degrees" : [
+                "AAS Medical Assistant" ,
+                "BAS Medical Assistant"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/medical-assistant/" ,
+            "faIcon" : "fa-heartbeat"
+        },
+        {
+            "shortname" : "webdev" ,
+            "name" : "Web Design & Development" ,
+            "tags"  : [
+                "Build Cyberspace" ,
+                "Call Me the Coder" ,
+                "Be Multi-Lingual" 
+            ],
+            "jobs" : [
+                "Front End Web Developer" ,
+                "Back End Web Developer" ,
+                "UI/UX Designer" ,
+                "Social Media Manager" ,
+                "Content Strategist"
+            ],
+            "degrees" : [
+                "AAS Web Design & Development" ,
+                "BAS Web Design & Development"
+            ]
+            ,
+            "link" : "http://www.lcsc.edu/business-technology/degree-programs/web-development/" ,
+            "faIcon" : "fa-file-code-o"
+        }
+    
+    ]
+}

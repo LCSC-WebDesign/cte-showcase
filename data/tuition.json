@@ -1,0 +1,46 @@
+{
+    "tuition": [
+        {
+            "name" : "lcsc-aas" ,
+            "longname" : "LCSC Associate's Degree" ,
+            "tuition" : 6120 ,
+            "room" : 7392 ,
+            "expenses" : 2650
+        },
+        {
+            "name" : "lcsc-bas" ,
+            "longname" : "LCSC Bachelor's Degree" ,
+            "tuition": 6120 ,
+            "room" : 7392 ,
+            "expenses" : 2650
+        },
+        {
+            "name" : "uidaho" ,
+            "longname" : "University of Idaho" ,
+            "tuition" : 7232 ,
+            "room" : 8354 ,
+            "expenses" : 3836
+        },
+        {
+            "name" : "stanford",
+            "longname" : "Stanford University",
+            "tuition" : 47940,
+            "room" : 14601,
+            "expenses": 4155
+        },
+        {
+            "name" : "nwuniversity",
+            "longname" : "Northwestern University",
+            "tuition" : 50855,
+            "room" : 15489,
+            "expenses": 4152
+        },
+        {
+            "name" : "harvard",
+            "longname" : "Harvard University",
+            "tuition" : 47074,
+            "room" : 15951,
+            "expenses" : 3875
+        }
+    ]
+}
