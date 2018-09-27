@@ -43,3 +43,8 @@ nav .top-bar, nav .top-bar ul {
 small a {
     margin-left: 0 !important;
 }
+
+/* scroll to top */
+.scroll-top {
+    font-size: 1.8rem !important;
+}
