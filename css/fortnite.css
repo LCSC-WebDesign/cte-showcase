@@ -65,4 +65,5 @@ small a {
     text-transform: uppercase;
     padding: 1em 3em;
     font-size: 150% !important;
+    cursor: pointer;
 }
