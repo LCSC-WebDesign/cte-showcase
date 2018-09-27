@@ -13,3 +13,20 @@ button {
     width: 550px !important;
     margin: 0 auto !important;
 }
+
+
+nav {
+    background: #192662 !important;
+}
+
+nav .top-bar, nav .top-bar ul {
+    background: #192662 !important;
+}
+
+.menu > li a {
+    border-bottom: solid 2px #192662;
+    color: white;
+}
+.menu > li a:hover {
+    border-bottom: solid 2px white;
+}
