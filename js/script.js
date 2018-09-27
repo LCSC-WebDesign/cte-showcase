@@ -3,6 +3,8 @@
 // document ready
 $(document).ready( function(){
 
+    $('#slider').bxSlider();
+
     // run foundation methods for UI
     $(document).foundation();
 
@@ -35,63 +37,13 @@ $(document).ready( function(){
     })
 
 
-    // countdown at the top of the page
-    // $('#countdown').countdown( "2017/03/22", function(ev){ 
-    //     $(this).text(
-    //         ev.strftime('%-D day%!D %-H hour%!H %-M minute%!H and %-S second%!S')
-    //     );
-    // })
-    // .on('finish.countdown', function(){
-    //     $(this).text(
-    //         "The showcase is over. Contact us for details on future showcases"
-    //     )
-    // });
+
 
     loadAllPrograms();
     // load the programs
     
 
-    // contact form
-    /*
-    $('#contact-form').submit( function(e){
-        var formData = $(this).serialize();
-        $('#submit-button')
-            .attr("disabled","disabled")
-            .empty()
-            .html('<i class="fa fa-circle-o-notch fa-spin"></i>');
-        $('input, textarea').attr("disabled","disabled");
-        e.preventDefault();
-        
-        var ajaxOptions = {
-            type: 'POST' ,
-            url: $(this).attr('action') ,
-            data: formData
-        }
-        $.ajax( ajaxOptions )
-            .done(function(response){
-
-                $('#form_message').addClass("success").removeClass("hide").text(response);
-                $('#submit-button')
-                    .removeAttr("disabled")
-                    .empty()
-                    .text("Submit");
-                $('input, textarea').removeAttr("disabled");
-                var timer = setTimeout( function(){
-                    $('#form_message').removeClass("success").addClass("hide");
-                }, 5000 );
-            })
-            .fail(function(data){
-
-                $('#form_message').addClass("alert").removeClass("hide").text(data.responseText);
-                
-                $('#submit-button')
-                    .removeAttr("disabled")
-                    .empty()
-                    .text("Submit");
-                $('input, textarea').removeAttr("disabled");
-            })
-    })
-    */
+    
 
 
 
