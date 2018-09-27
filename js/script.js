@@ -11,6 +11,9 @@ $(document).ready( function(){
         slideWidth: 550
     });
 
+    let year = (new Date().getFullYear());
+    $('#date').text(year);
+
     // run foundation methods for UI
     $(document).foundation();
 
