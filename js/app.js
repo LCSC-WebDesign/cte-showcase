@@ -39,23 +39,23 @@ app.controller('priceCtrl', function($scope){
     $scope.others = [
         {
             name: 'University of Idaho' ,
-            cost: 3616     
+            cost: 3932     
         },
         {
             name: 'Boise State University' ,
-            cost: 3663 // 5368
+            cost: 3847 
         },
         {
             name: 'UCLA' ,
-            cost: 5751     
+            cost: 6613     
         },
         {
             name: "WSU (Out of State)" ,
-            cost: 12258
+            cost: 12252
         },
         {
             name: 'Harvard University' ,
-            cost: 22495     
+            cost: 23170     
         },
         {
             name: 'Stanford University' ,
