@@ -37,3 +37,9 @@ nav .top-bar, nav .top-bar ul {
 .icon i{
     color:white;
 }
+
+
+/* portfolio links */
+small a {
+    margin-left: 0 !important;
+}
