@@ -30,3 +30,10 @@ nav .top-bar, nav .top-bar ul {
 .menu > li a:hover {
     border-bottom: solid 2px white;
 }
+.icon {
+    text-align:center;
+    
+}
+.icon i{
+    color:white;
+}
