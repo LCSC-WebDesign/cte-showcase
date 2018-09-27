@@ -1,5 +1,6 @@
 .jumbotron {
-    background: #6b96c0 !important;
+    /* background: #6b96c0 !important; */
+    background-image: linear-gradient(to bottom, #8eb3d4, #2b3f89);
 }
 button {
     font-size:22px !important;
@@ -47,4 +48,21 @@ small a {
 /* scroll to top */
 .scroll-top {
     font-size: 1.8rem !important;
+}
+
+/* registration button */
+.register img {
+    max-width: 300px;
+}
+
+.register {
+    margin-top: 1.5em;
+    background: #ffde16;
+    color: #192662;
+    border: solid 10px #192662;
+    font-family: 'Oswald';
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1em 3em;
+    font-size: 150% !important;
 }
