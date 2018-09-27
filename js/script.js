@@ -3,7 +3,13 @@
 // document ready
 $(document).ready( function(){
 
-    $('#slider').bxSlider();
+    $('#slider').bxSlider({
+        auto: true,
+        autoControls: true,
+        stopAutoOnClick: true,
+        pager: true,
+        slideWidth: 550
+    });
 
     // run foundation methods for UI
     $(document).foundation();
