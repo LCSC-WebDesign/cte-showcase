@@ -8,3 +8,8 @@ button {
     font-family:oswald;
     font-size:42px !important;
 }
+
+.bx-slider {
+    width: 550px;
+    margin: 0 auto;
+}
