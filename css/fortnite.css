@@ -10,6 +10,6 @@ button {
 }
 
 .bx-wrapper {
-    width: 550px;
-    margin: 0 auto;
+    width: 550px !important;
+    margin: 0 auto !important;
 }
